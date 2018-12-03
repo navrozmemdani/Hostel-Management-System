@@ -1,0 +1,2906 @@
+VERSION 5.00
+Begin VB.Form gallary 
+   BackColor       =   &H00C0C000&
+   Caption         =   "Form1"
+   ClientHeight    =   10935
+   ClientLeft      =   120
+   ClientTop       =   450
+   ClientWidth     =   20250
+   LinkTopic       =   "Form1"
+   MDIChild        =   -1  'True
+   ScaleHeight     =   10935
+   ScaleWidth      =   20250
+   WindowState     =   2  'Maximized
+   Begin VB.Timer Timer46 
+      Interval        =   900
+      Left            =   10080
+      Top             =   10200
+   End
+   Begin VB.Timer Timer45 
+      Interval        =   900
+      Left            =   9600
+      Top             =   10200
+   End
+   Begin VB.Timer Timer44 
+      Interval        =   900
+      Left            =   9120
+      Top             =   10200
+   End
+   Begin VB.Timer Timer43 
+      Interval        =   900
+      Left            =   8640
+      Top             =   10200
+   End
+   Begin VB.Timer Timer42 
+      Interval        =   900
+      Left            =   8160
+      Top             =   10200
+   End
+   Begin VB.Timer Timer41 
+      Interval        =   900
+      Left            =   7680
+      Top             =   10200
+   End
+   Begin VB.Timer Timer40 
+      Interval        =   900
+      Left            =   7200
+      Top             =   10200
+   End
+   Begin VB.Timer Timer39 
+      Interval        =   900
+      Left            =   6720
+      Top             =   10200
+   End
+   Begin VB.Timer Timer38 
+      Interval        =   900
+      Left            =   6240
+      Top             =   10200
+   End
+   Begin VB.Timer Timer37 
+      Interval        =   900
+      Left            =   5760
+      Top             =   10200
+   End
+   Begin VB.Timer Timer36 
+      Interval        =   900
+      Left            =   5280
+      Top             =   10200
+   End
+   Begin VB.Timer Timer35 
+      Interval        =   900
+      Left            =   4800
+      Top             =   10200
+   End
+   Begin VB.Timer Timer34 
+      Interval        =   900
+      Left            =   4320
+      Top             =   10200
+   End
+   Begin VB.Timer Timer33 
+      Interval        =   900
+      Left            =   3840
+      Top             =   10200
+   End
+   Begin VB.Timer Timer32 
+      Interval        =   900
+      Left            =   3360
+      Top             =   10200
+   End
+   Begin VB.Timer Timer31 
+      Interval        =   900
+      Left            =   2880
+      Top             =   10200
+   End
+   Begin VB.Timer Timer30 
+      Interval        =   900
+      Left            =   2400
+      Top             =   10200
+   End
+   Begin VB.Timer Timer29 
+      Interval        =   900
+      Left            =   1920
+      Top             =   10200
+   End
+   Begin VB.Timer Timer28 
+      Interval        =   900
+      Left            =   1440
+      Top             =   10200
+   End
+   Begin VB.Timer Timer27 
+      Interval        =   900
+      Left            =   960
+      Top             =   10200
+   End
+   Begin VB.Timer Timer26 
+      Interval        =   900
+      Left            =   480
+      Top             =   10200
+   End
+   Begin VB.Timer Timer25 
+      Interval        =   900
+      Left            =   0
+      Top             =   10200
+   End
+   Begin VB.Timer Timer24 
+      Interval        =   900
+      Left            =   11040
+      Top             =   9720
+   End
+   Begin VB.Timer Timer23 
+      Interval        =   900
+      Left            =   10560
+      Top             =   9720
+   End
+   Begin VB.Timer Timer22 
+      Interval        =   900
+      Left            =   10080
+      Top             =   9720
+   End
+   Begin VB.Timer Timer21 
+      Interval        =   900
+      Left            =   9600
+      Top             =   9720
+   End
+   Begin VB.Timer Timer20 
+      Interval        =   900
+      Left            =   9120
+      Top             =   9720
+   End
+   Begin VB.Timer Timer19 
+      Interval        =   900
+      Left            =   8640
+      Top             =   9720
+   End
+   Begin VB.Timer Timer18 
+      Interval        =   900
+      Left            =   8160
+      Top             =   9720
+   End
+   Begin VB.Timer Timer17 
+      Interval        =   900
+      Left            =   7680
+      Top             =   9720
+   End
+   Begin VB.Timer Timer16 
+      Interval        =   900
+      Left            =   7200
+      Top             =   9720
+   End
+   Begin VB.Timer Timer15 
+      Interval        =   900
+      Left            =   6720
+      Top             =   9720
+   End
+   Begin VB.Timer Timer14 
+      Interval        =   900
+      Left            =   6240
+      Top             =   9720
+   End
+   Begin VB.Timer Timer13 
+      Interval        =   900
+      Left            =   5760
+      Top             =   9720
+   End
+   Begin VB.Timer Timer12 
+      Interval        =   900
+      Left            =   5280
+      Top             =   9720
+   End
+   Begin VB.Timer Timer11 
+      Interval        =   900
+      Left            =   4800
+      Top             =   9720
+   End
+   Begin VB.Timer Timer10 
+      Interval        =   900
+      Left            =   4320
+      Top             =   9720
+   End
+   Begin VB.Timer Timer9 
+      Interval        =   900
+      Left            =   3840
+      Top             =   9720
+   End
+   Begin VB.Timer Timer8 
+      Interval        =   900
+      Left            =   3360
+      Top             =   9720
+   End
+   Begin VB.Timer Timer7 
+      Interval        =   900
+      Left            =   2880
+      Top             =   9720
+   End
+   Begin VB.Timer Timer6 
+      Interval        =   900
+      Left            =   2400
+      Top             =   9720
+   End
+   Begin VB.Timer Timer5 
+      Interval        =   900
+      Left            =   1920
+      Top             =   9720
+   End
+   Begin VB.Timer Timer4 
+      Interval        =   900
+      Left            =   1440
+      Top             =   9720
+   End
+   Begin VB.Timer Timer3 
+      Interval        =   900
+      Left            =   960
+      Top             =   9720
+   End
+   Begin VB.Timer Timer2 
+      Interval        =   900
+      Left            =   480
+      Top             =   9720
+   End
+   Begin VB.Timer Timer1 
+      Interval        =   900
+      Left            =   0
+      Top             =   9720
+   End
+   Begin VB.Frame Frame1 
+      BorderStyle     =   0  'None
+      Height          =   8295
+      Left            =   -120
+      TabIndex        =   1
+      Top             =   1080
+      Width           =   20415
+      Begin VB.Image Image46 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":0000
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image45 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":1BBF0
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image44 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":40806
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image43 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":54B6C
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image42 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":6BFF9
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image41 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":765B4
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image40 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":87C28
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image39 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":98D27
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image38 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":AD1CB
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image37 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":B9E5D
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image36 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":C7C58
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image35 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":D5F7C
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image34 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":E42AB
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image33 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":F7FB1
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image32 
+         Height          =   8175
+         Left            =   6720
+         Picture         =   "gallary.frx":10A21C
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   7935
+      End
+      Begin VB.Image Image31 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":1152B1
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image30 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":126E96
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image29 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":137F2B
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image28 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":1496AD
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image27 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":15CDE4
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image26 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":16FC00
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image25 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":181B26
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image24 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":19295F
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image23 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":1A8CF4
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image22 
+         Height          =   8175
+         Left            =   7320
+         Picture         =   "gallary.frx":1CE660
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   6255
+      End
+      Begin VB.Image Image21 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":1E1407
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image20 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":1FA527
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image19 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":214F13
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image18 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":235531
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image17 
+         Height          =   8175
+         Left            =   6960
+         Picture         =   "gallary.frx":24F696
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   7695
+      End
+      Begin VB.Image Image16 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":25B80E
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image15 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":26B4B0
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image14 
+         Height          =   8175
+         Left            =   5640
+         Picture         =   "gallary.frx":27C120
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   9375
+      End
+      Begin VB.Image Image13 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":28ED3D
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image12 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":2AC0C1
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image11 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":2BF068
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image10 
+         Height          =   8175
+         Left            =   1560
+         Picture         =   "gallary.frx":2DBEA2
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17175
+      End
+      Begin VB.Image Image9 
+         Height          =   8055
+         Left            =   1560
+         Picture         =   "gallary.frx":2F4260
+         Stretch         =   -1  'True
+         Top             =   120
+         Width           =   17175
+      End
+      Begin VB.Image Image8 
+         Height          =   8055
+         Left            =   5880
+         Picture         =   "gallary.frx":2FAAF1
+         Stretch         =   -1  'True
+         Top             =   120
+         Width           =   9135
+      End
+      Begin VB.Image Image7 
+         Height          =   8055
+         Left            =   1560
+         Picture         =   "gallary.frx":30C2DF
+         Stretch         =   -1  'True
+         Top             =   120
+         Width           =   17175
+      End
+      Begin VB.Image Image6 
+         Height          =   8055
+         Left            =   1560
+         Picture         =   "gallary.frx":32669C
+         Stretch         =   -1  'True
+         Top             =   120
+         Width           =   17175
+      End
+      Begin VB.Image Image5 
+         Height          =   8055
+         Left            =   1560
+         Picture         =   "gallary.frx":33930B
+         Stretch         =   -1  'True
+         Top             =   120
+         Width           =   17175
+      End
+      Begin VB.Image Image4 
+         Height          =   8055
+         Left            =   1560
+         Picture         =   "gallary.frx":34B1F2
+         Stretch         =   -1  'True
+         Top             =   120
+         Width           =   17175
+      End
+      Begin VB.Image Image3 
+         Height          =   8055
+         Left            =   1560
+         Picture         =   "gallary.frx":35D1E4
+         Stretch         =   -1  'True
+         Top             =   120
+         Width           =   17175
+      End
+      Begin VB.Image Image2 
+         Height          =   8040
+         Left            =   1560
+         Picture         =   "gallary.frx":36D22F
+         Stretch         =   -1  'True
+         Top             =   0
+         Width           =   17160
+      End
+      Begin VB.Image Image1 
+         Height          =   8055
+         Left            =   1560
+         Picture         =   "gallary.frx":384424
+         Stretch         =   -1  'True
+         Top             =   120
+         Width           =   17175
+      End
+   End
+   Begin VB.Label Label1 
+      BackColor       =   &H00800080&
+      Caption         =   "                                                                          GALLERY"
+      BeginProperty Font 
+         Name            =   "Rockwell"
+         Size            =   24
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   -1  'True
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H8000000F&
+      Height          =   615
+      Left            =   240
+      TabIndex        =   0
+      Top             =   120
+      Width           =   19935
+   End
+   Begin VB.Shape Shape1 
+      BackColor       =   &H00400040&
+      BackStyle       =   1  'Opaque
+      Height          =   855
+      Left            =   0
+      Top             =   0
+      Width           =   20730
+   End
+End
+Attribute VB_Name = "gallary"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+
+
+Private Sub Timer1_Timer()
+Image1.Visible = True
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer10_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = True
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer11_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = True
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer12_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = True
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer13_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = True
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer14_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = True
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer15_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = True
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer16_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = True
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer17_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = True
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer18_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = True
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer19_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = True
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer2_Timer()
+Image1.Visible = False
+Image2.Visible = True
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+Private Sub Timer20_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = True
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer21_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = True
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer22_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = True
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer23_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = True
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer24_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = True
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer25_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = True
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer26_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = True
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer27_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = True
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer28_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = True
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer29_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = True
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer3_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = True
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer30_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = True
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer31_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = True
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer32_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = True
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer33_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = True
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer34_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = True
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer35_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = True
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer36_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = True
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer37_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = True
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer38_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = True
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer39_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = True
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer4_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = True
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer40_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = True
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer41_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = True
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer42_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = True
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer43_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = True
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer44_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = True
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer45_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = True
+Image46.Visible = False
+End Sub
+
+Private Sub Timer46_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = True
+End Sub
+
+Private Sub Timer5_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = True
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer6_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = True
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer7_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = True
+Image8.Visible = False
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer8_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = True
+Image9.Visible = False
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
+
+Private Sub Timer9_Timer()
+Image1.Visible = False
+Image2.Visible = False
+Image3.Visible = False
+Image4.Visible = False
+Image5.Visible = False
+Image6.Visible = False
+Image7.Visible = False
+Image8.Visible = False
+Image9.Visible = True
+Image10.Visible = False
+Image11.Visible = False
+Image12.Visible = False
+Image13.Visible = False
+Image14.Visible = False
+Image15.Visible = False
+Image16.Visible = False
+Image17.Visible = False
+Image18.Visible = False
+Image19.Visible = False
+Image20.Visible = False
+Image21.Visible = False
+Image22.Visible = False
+Image23.Visible = False
+Image24.Visible = False
+Image25.Visible = False
+Image26.Visible = False
+Image27.Visible = False
+Image28.Visible = False
+Image29.Visible = False
+Image30.Visible = False
+Image31.Visible = False
+Image32.Visible = False
+Image33.Visible = False
+Image34.Visible = False
+Image35.Visible = False
+Image36.Visible = False
+Image37.Visible = False
+Image38.Visible = False
+Image39.Visible = False
+Image40.Visible = False
+Image41.Visible = False
+Image42.Visible = False
+Image43.Visible = False
+Image44.Visible = False
+Image45.Visible = False
+Image46.Visible = False
+End Sub
